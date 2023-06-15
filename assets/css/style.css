@@ -1,0 +1,20 @@
+/* ============ Settigns ============ */
+@import '01_Settings/01-01_Setting.css';
+@import '01_Settings/01-02_Colors.css';
+@import '01_Settings/01-03_Typography.css';
+@import '01_Settings/01-04_Breakpoints.css';
+@import '01_Settings/01-05_Buttons.css';
+
+/* ============ Structure ============ */
+@import '02_Structure/02-01_Grid.css';
+@import '02_Structure/02-02_Header.css';
+@import '02_Structure/02-03_Footer.css';
+@import '02_Structure/02-04_Container.css';
+@import '02_Structure/02-05_Sidenav.css';
+
+/* ============ Placements ============ */
+@import '03_Placements/03-01_Banners.css';
+@import '03_Placements/03-02_Menus.css';
+@import '03_Placements/03-03_Carusels.css';
+@import '03_Placements/03-04_TextContent.css';
+@import '03_Placements/03-05_Forms.css';

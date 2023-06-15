@@ -1,0 +1,30 @@
+
+/* ========== Header Cutin START ========== */
+.clip-filter {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    max-height: 90vh;
+    width: 33%;
+    filter: drop-shadow(0px 30px 0 rgba(0, 0, 0, 0.1));
+  }
+  .header__background {
+    background-color: var(--color-red-primary);
+    height: 100%;
+    padding-top: 7rem;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 100% 100%);
+    z-index: -10;
+    position: relative;
+    overflow: hidden;
+  }
+  .line {
+    height: 2px;
+    width: 100%;
+    background-color: var(--color-grey-dark);
+  }
+  .side__buttons {
+    text-align: right;
+  }
+  /* ========== Header Cutin END ========== */
+  

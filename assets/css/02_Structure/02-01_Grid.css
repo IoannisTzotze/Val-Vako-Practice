@@ -1,0 +1,45 @@
+
+/* ========== Grid Layout START ========== */
+.container {
+    display: grid;
+    grid-template-rows: 100vh repeat(9, min-content);
+    grid-template-columns:
+      1rem [sidebar-start] 21rem [sidebar-end full-start] 2.5rem
+      [center-start] 1fr [center-end] 1rem;
+  }
+  
+  aside {
+    grid-column: sidebar-start / sidebar-end;
+  }
+  header {
+    grid-column: center-start / center-end;
+  }
+  #categories {
+    grid-column: center-start / center-end;
+  }
+  #popular-games {
+    grid-column: center-start / center-end;
+  }
+  #banner-1 {
+    grid-column: center-start / center-end;
+  }
+  #new-games {
+    grid-column: center-start / center-end;
+  }
+  #stats {
+    grid-column: center-start / center-end;
+  }
+  #banner-2 {
+    grid-column: center-start / center-end;
+  }
+  #sponsors {
+    grid-column: center-start / center-end;
+  }
+  #recommended-games {
+    grid-column: center-start / center-end;
+  }
+  #footer {
+    grid-column: center-start / center-end;
+  }
+  /* ========== Grid Layout END ========== */
+  

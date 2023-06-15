@@ -1,0 +1,17 @@
+:root{
+    --mobile: ~"only screen and (max-width: 767px)";
+    --tablet: ~"only screen and (min-width: 768px) and (max-width: 1023px)";
+    --desktop: ~"only screen and (min-width: 1024px)";
+    --desktop-large: ~"only screen and (min-width: 1440px)";
+    --desktop-wide: ~"only screen and (min-width: 1920px)";
+    --desktop-ultra-wide: ~"only screen and (min-width: 2560px)";
+
+
+    /* Browser Compatibility */
+    --ie11: ~"all and (-ms-high-contrast: none), (-ms-high-contrast: active)";
+    --edge: ~"all and (-ms-high-contrast: none), (-ms-high-contrast: active), (min-width: 1024px)";
+    --firefox: ~"all and (-moz-appearance: none)";
+    --chrome: ~"all and (-webkit-appearance: none)";
+    --safari: ~"not all and (min-resolution: 0.001dpcm)";
+}
+

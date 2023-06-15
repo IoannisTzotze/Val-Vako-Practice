@@ -1,0 +1,241 @@
+/* ========== Buttons START ========== */
+.button__arrows {
+    position: relative;
+    display: inline-block;
+    font-size: 1.4rem;
+    z-index: 5;
+  }
+  .button__arrows::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 9px;
+    width: 10px;
+    border-top: 1.5px solid var(--color-white);
+    border-left: 1.5px solid var(--color-white);
+    z-index: 100;
+  }
+  .button__arrows::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 9px;
+    width: 10px;
+    border-bottom: 1.5px solid var(--color-white);
+    border-right: 1.5px solid var(--color-white);
+    z-index: 100;
+  }
+  .arrows--black::before {
+    border-top: 1.5px solid var(--color-black);
+    border-left: 1.5px solid var(--color-black);
+  }
+  .arrows--black::after {
+    border-bottom: 1.5px solid var(--color-black);
+    border-right: 1.5px solid var(--color-black);
+  }
+  .arrows--grey::before {
+    border-top: 1.5px solid var(--color-grey-dark);
+    border-left: 1.5px solid var(--color-grey-dark);
+  }
+  .arrows--grey::after {
+    border-bottom: 1.5px solid var(--color-grey-dark);
+    border-right: 1.5px solid var(--color-grey-dark);
+  }
+  .arrows--large::before {
+    height: 12px;
+    width: 13px;
+    border-top: 2px solid var(--color-white);
+    border-left: 2px solid var(--color-white);
+  }
+  .arrows--large::after {
+    height: 13px;
+    width: 12px;
+    border-bottom: 2px solid var(--color-white);
+    border-right: 2px solid var(--color-white);
+  }
+  .button__arrows--length{
+    width: 100%;
+  }
+  .button__arrows--length::before {
+    height: 12px;
+    width: 13px;
+    border-top: 2px solid var(--color-white);
+    border-left: 2px solid var(--color-white);
+  }
+  .button__arrows--length::after{
+    height: 12px;
+    width: 13px;
+    border-bottom: 2px solid var(--color-white);
+    border-right: 2px solid var(--color-white);
+  }
+  .cutin__side {
+    position: absolute;
+    top: 15rem;
+    right: 1rem;
+  }
+  .cutin__side__button {
+    position: relative;
+    margin: 1rem 0;
+    width: 20rem;
+    height: 5rem;
+    background-color: var(--color-white);
+  }
+  .btn__side {
+    text-align: right;
+    border: none;
+    padding: 1rem 2.5rem;
+    position: absolute;
+    font-size: 1.4rem;
+    color: var(--color-white);
+    background: var(--color-red-primary);
+    top: 2px;
+    left: 2px;
+    width: 19.6rem;
+    height: 4.6rem;
+    z-index: 100;
+  }
+  .side--large {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%);
+  }
+  .side--large .btn__side {
+    clip-path: polygon(1.5% 0%, 100% 0, 100% 100%, 20.5% 100%);
+  }
+  .side--medium {
+    clip-path: polygon(22% 0, 100% 0, 100% 100%, 42% 100%);
+  }
+  .side--medium .btn__side {
+    clip-path: polygon(23.5% 0, 100% 0, 100% 100%, 42.5% 100%);
+  }
+  .side--small {
+    clip-path: polygon(44% 0%, 100% 0, 100% 100%, 64% 100%);
+  }
+  .side--small .btn__side {
+    clip-path: polygon(46% 0%, 100% 0, 100% 100%, 65% 100%);
+  }
+  .side--active {
+    background: var(--color-white);
+  }
+  .side--active .btn__side {
+    background: var(--color-white);
+    color: var(--color-black);
+  }
+  .btn {
+    text-align: center;
+    border: none;
+    clip-path: polygon(100% 60%, 100% 0%, 12% 0%, 0% 40%, 0% 100%, 88% 100%);
+  }
+  .btn__primary {
+    width: 13rem;
+    height: 4rem;
+    padding: 1rem 0;
+  }
+  .btn__primary--large {
+    width: 25rem;
+    height: 6.3rem;
+    line-height: 6.3rem;
+    padding: 0;
+    font-size: 1.6rem;
+    font-weight: bold;
+    clip-path: polygon(100% 65%, 100% 0%, 9% 0%, 0% 35%, 0% 100%, 91% 100%);
+  }
+  .btn__primary--small {
+    width: 12rem;
+    height: 3.5rem;
+    font-size: 1.2rem;
+  }
+  .btn--white {
+    background-color: var(--color-white);
+    color: var(--color-black);
+  }
+  .btn--red {
+    background-color: var(--color-red-primary);
+    color: var(--color-white);
+  }
+  .btn--grey {
+    background-color: var(--color-grey-dark);
+    color: var(--color-white);
+  }
+  .triangle {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 18px 18px 0;
+    border-color: transparent var(--color-black) transparent transparent;
+    z-index: 5;
+  }
+  .triangle--small{
+    border-width: 0 12px 12px 0;
+  }
+  .triangle--large{
+    top: 1.8rem;
+    right: 1.8rem;
+    border-width: 0 12rem 12rem 0;
+  }
+  .triangle--red {
+    border-color: transparent var(--color-red-primary) transparent transparent;
+  }
+  .triangle--green {
+    border-color: transparent var(--color-lime-primary) transparent transparent;
+  }
+  .triangle--purple {
+    border-color: transparent var(--color-purple-primary) transparent transparent;
+  }
+  .triangle--lightgrey {
+    border-color: transparent var(--color-grey-light-2) transparent transparent;
+  }
+  .triangle--grey {
+    border-color: transparent var(--color-grey-dark) transparent transparent;
+  }
+  .btn--spacing {
+    margin-left: 1rem;
+  }
+  
+  .btn__border {
+    position: relative;
+    width: 13rem;
+    height: 4rem;
+    background-color: var(--color-white);
+    clip-path: polygon(100% 60%, 100% 0%, 12% 0%, 0% 40%, 0% 100%, 88% 100%);
+  }
+  .btn__secondary {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 12.6rem;
+    height: 3.6rem;
+    clip-path: polygon(100% 60%, 100% 0%, 12% 0%, 0% 40%, 0% 100%, 88% 100%);
+    z-index: 100;
+  }
+  .btn__secondary--red {
+    background-color: var(--color-red-primary);
+    color: var(--color-white);
+  }
+  .btn__secondary--grey {
+    background-color: var(--color-grey-dark);
+    color: var(--color-white);
+  }
+  .btn__secondary--lightgrey {
+    background-color: var(--color-grey-light-1);
+    color: var(--color-white);
+  }
+  .btn__secondary--lime {
+    background-color: var(--color-lime-primary);
+    color: var(--color-black);
+  }
+  .btn__border--long{
+    width: 100%;
+    clip-path: polygon(100% 60%, 100% 0%, 4% 0%, 0% 40%, 0% 100%, 96% 100%)
+  }
+  .btn__secondary--long{
+    top: 1px;
+    left: 1px;
+    width: calc(100% - 2px);
+    height: 3.8rem;
+    clip-path: polygon(100% 60%, 100% 0%, 4% 0%, 0% 40%, 0% 100%, 96% 100%)
+  }
+  /* ========== Buttons END ========== */
