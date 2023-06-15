@@ -8,4 +8,5 @@ $(document).ready(function () {
   }
 
   setTimeout(hideBackground, 1500);
+
 });
